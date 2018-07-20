@@ -5,7 +5,7 @@ sudo: required
 stages:
 - name: build
 - name: tag
-  if: tag = true
+  if: tag == true
 
 jobs:
   include:
